@@ -1,0 +1,41 @@
+D:\Work\ASPNET5_Auth\ASPNET5_Auth\ASPNET5_Auth\src\ASPNET5_Auth>dnu restore 
+
+Microsoft .NET Development Utility Clr-x86-1.0.0-rc1-16202
+  CACHE https://api.nuget.org/v3/index.json
+Restoring packages for D:\Work\ASPNET5_Auth\ASPNET5_Auth\ASPNET5_Auth\src\ASPNET
+5_Auth\project.json
+  CACHE https://api.nuget.org/v3-flatcontainer/system.net.sockets/index.json
+Writing lock file D:\Work\ASPNET5_Auth\ASPNET5_Auth\ASPNET5_Auth\src\ASPNET5_Aut
+h\project.lock.json
+Restore complete, 3607ms elapsed
+
+NuGet Config files used:
+    C:\Users\ahmed.helmy\AppData\Roaming\NuGet\nuget.config
+
+Feeds used:
+    https://api.nuget.org/v3-flatcontainer/
+
+
+
+D:\Work\ASPNET5_Auth\ASPNET5_Auth\ASPNET5_Auth\src\ASPNET5_Auth>dnvm use 1.0.0-rc1-final -p
+
+Adding C:\Users\ahmed.helmy\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-final\bin to
+ process PATH
+Adding C:\Users\ahmed.helmy\.dnx\runtimes\dnx-clr-win-x86.1.0.0-rc1-final\bin to
+ user PATH
+
+
+
+D:\Work\ASPNET5_Auth\ASPNET5_Auth\ASPNET5_Auth\src\ASPNET5_Auth>dnx ef migrations add Initial
+
+Done. To undo this action, use 'ef migrations remove'
+
+
+
+
+D:\Work\ASPNET5_Auth\ASPNET5_Auth\ASPNET5_Auth\src\ASPNET5_Auth>dnx ef database update
+
+Applying migration '20160208092823_Initial'.
+Done.
+
+D:\Work\ASPNET5_Auth\ASPNET5_Auth\ASPNET5_Auth\src\ASPNET5_Auth>
